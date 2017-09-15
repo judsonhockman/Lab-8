@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 8: Shape Up Or Shape Out</title>
+</head>
+<body>
+    <div id="button-bar">
+        <h3>Square</h3>
+        <input type="number" id="input-square-side" placeholder="Side Length"><button id="square-button">Insert</button>
+        <h3>Rectangle</h3>
+        <input type="number" id="input-rectangle-width" placeholder="Width"><input type="number" id="input-rectangle-height" placeholder="Height"><button id="rectangle-button">Insert</button>
+        <h3>Triangle</h3>
+        <input type="number" id="input-triangle-height" placeholder="Height"><button id="triangle-button">Insert</button>
+        <h3>Circle</h3>
+        <input type="number" id="input-circle-radius" placeholder="Radius"><button id="circle-button">Insert</button>
+    </div>
+    <div id="canvas"></div>
+    <div id="detail-pane">
+        <p>Selected Shape: <span id="shape-name"></span></p>
+        <p>Width: <span id="shape-width"></span></p>
+        <p>Height: <span id="shape-height"></span></p>
+        <p>Radius: <span id="shape-radius"></span></p>
+        <p>Area: <span id="shape-area"></span></p>
+        <p>Perimeter: <span id="shape-perimeter"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
